@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import PngRandomAvatar from './PngRandomAvatar';
+
+<Meta title="Example/PngRandomAvatar" component={PngRandomAvatar} />
+
+# Example Component Demo
+
+## PngRandomAvatar props
+<Props of={PngRandomAvatar} />
+
+## Description
+
+`PngRandomAvatar` component provides user basic interface to show a random avatar as png from png layers
+
+## Demo
+
+<Canvas>
+  <Story name="Example PngRandomAvatar">
+    {(args) => <PngRandomAvatar {...args} />}
+  </Story>
+</Canvas>

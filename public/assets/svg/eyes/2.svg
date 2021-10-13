@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="1000px" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>7-eyes/1/3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="7-eyes/1/3" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="openlefteye" fill="#000000" cx="427" cy="352" r="11"></circle>
+        <path d="M562.843146,356.370058 C561.671573,357.541631 559.772078,357.541631 558.600505,356.370058 C557.428932,355.198485 557.428932,353.29899 558.600505,352.127417 C566.399495,344.328427 579.044156,344.328427 586.843146,352.127417 C588.014719,353.29899 588.014719,355.198485 586.843146,356.370058 C585.671573,357.541631 583.772078,357.541631 582.600505,356.370058 C577.144661,350.914214 568.29899,350.914214 562.843146,356.370058 Z" id="closedrighteye" fill="#000000" fill-rule="nonzero"></path>
+    </g>
+</svg>

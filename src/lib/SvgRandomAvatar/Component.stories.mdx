@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import SvgRandomAvatar from './SvgRandomAvatar';
+
+<Meta title="Example/SvgRandomAvatar" component={SvgRandomAvatar} />
+
+# Example Component Demo
+
+## SvgRandomAvatar props
+<Props of={SvgRandomAvatar} />
+
+## Description
+
+`SvgRandomAvatar` component provides user basic interface to show a random avatar as svg from svg layers
+
+## Demo
+
+<Canvas>
+  <Story name="Example SvgRandomAvatar">
+    {(args) => <SvgRandomAvatar {...args} />}
+  </Story>
+</Canvas>

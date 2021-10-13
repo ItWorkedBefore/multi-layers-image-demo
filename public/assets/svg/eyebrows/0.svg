@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1000px" height="1000px" viewBox="0 0 1000 1000" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 54.1 (76490) - https://sketchapp.com -->
+    <title>8-eyebrows/1/1</title>
+    <desc>Created with Sketch.</desc>
+    <g id="8-eyebrows/1/1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M569.5,314 C544.371044,314 524,310.126953 524,297 C524,283.873047 544.371044,280 569.5,280 C594.628956,280 615,283.873047 615,297 C615,310.126953 594.628956,314 569.5,314 Z" id="righteyebrow" fill="#C15429" transform="translate(569.500000, 297.000000) rotate(10.000000) translate(-569.500000, -297.000000) "></path>
+        <path d="M430.5,314 C455.628956,314 476,310.126953 476,297 C476,283.873047 455.628956,280 430.5,280 C405.371044,280 385,283.873047 385,297 C385,310.126953 405.371044,314 430.5,314 Z" id="lefteyebrow" fill="#C15429" transform="translate(430.500000, 297.000000) rotate(-10.000000) translate(-430.500000, -297.000000) "></path>
+    </g>
+</svg>

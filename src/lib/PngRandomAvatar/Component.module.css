@@ -1,0 +1,14 @@
+.pngRandomAvatar {
+  /* border: 1px solid lightgray; */
+  font-family: sans-serif;
+  margin: 36px 24px;
+  padding: 24px;
+  text-align: center;
+  width: 240px;
+}
+
+.header {
+  font-size: 24px;
+  font-weight: normal;
+  margin: 0 0 12px;
+}
