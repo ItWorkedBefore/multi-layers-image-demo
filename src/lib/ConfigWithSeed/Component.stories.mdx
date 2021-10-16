@@ -1,0 +1,21 @@
+import { Meta, Props, Canvas, Story } from '@storybook/addon-docs';
+import ConfigWithSeed from './ConfigWithSeed';
+
+<Meta title="Example/ConfigWithSeed" component={ConfigWithSeed} />
+
+# Example Component Demo
+
+## ConfigWithSeed props
+<Props of={ConfigWithSeed} />
+
+## Description
+
+`ConfigWithSeed` component provides user basic interface to show an avatar from config with SVG layers
+
+## Demo
+
+<Canvas>
+  <Story name="Example ConfigWithSeed">
+    {(args) => <ConfigWithSeed {...args} />}
+  </Story>
+</Canvas>
