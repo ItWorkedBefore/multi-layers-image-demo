@@ -1,9 +1,6 @@
 import {useState, useEffect} from 'react';
 import {superpose} from 'multi-layers-image';
 
-const randomIntFromInterval = (min, max) =>
-  Math.floor(Math.random() * (max - min + 1) + min);
-
 const lib = [
   {name: 'background', qty: 10},
   {name: 'neck', qty: 3},
@@ -20,18 +17,19 @@ const lib = [
   {name: 'piercing', qty: 6},
 ];
 
-const useLogic = initialState => {
-  const [avatar, setAvatar] = useState(undefined);
-
-  const layers = lib.map(({name, qty}) => {
+const getRandomLayers = () =>
+  lib.map(({name, qty}) => {
     const id = Math.floor(Math.random() * qty);
     return `/assets/svg/${name}/${id}.svg`;
   });
 
+const useLogic = initialState => {
+  const [avatar, setAvatar] = useState(undefined);
+
   useEffect(() => {
     (async () => {
       setAvatar(
-        await superpose(layers, {
+        await superpose(getRandomLayers(), {
           width: 250,
           height: 250,
           mimetype: 'image/svg+xml',

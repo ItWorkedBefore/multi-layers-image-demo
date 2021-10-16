@@ -10,7 +10,7 @@ const Component = ({initialValue = 0}) => {
   return (
     <div className={classes.pngRandomAvatar}>
       <h2 className={classes.header}>PngRandomAvatar</h2>
-      <img src={avatar} />
+      <img src={avatar} alt="Random avatar" />
     </div>
   );
 };

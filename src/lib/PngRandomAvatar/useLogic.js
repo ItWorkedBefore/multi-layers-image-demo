@@ -13,20 +13,21 @@ const lib = [
   {name: 'mouth', qty: 10},
 ];
 
-const useLogic = initialState => {
-  const [avatar, setAvatar] = useState(undefined);
-
-  const layers = lib.map(({name, qty}) => {
+const getRandomLayers = () =>
+  lib.map(({name, qty}) => {
     const id = randomIntFromInterval(1, qty); // Doesn't use the image "0"
     return name === 'layout'
       ? `/assets/png/${name}/F${id}.png`
       : `/assets/png/${name}/${id}.png`;
   });
 
+const useLogic = initialState => {
+  const [avatar, setAvatar] = useState(undefined);
+
   useEffect(() => {
     (async () => {
       setAvatar(
-        await superpose(layers, {
+        await superpose(getRandomLayers(), {
           width: 250,
           height: 250,
           mimetype: 'image/png',
