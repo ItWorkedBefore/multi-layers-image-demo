@@ -1,8 +1,8 @@
 import React from 'react';
 import {render} from '@testing-library/react';
-import Component from './Component';
+import Component from './SvgRandomAvatar';
 
-describe('lib > PngRandomAvatar', () => {
+describe('lib > SvgRandomAvatar', () => {
   beforeEach(() => {});
 
   it('renders without crashing', () => {

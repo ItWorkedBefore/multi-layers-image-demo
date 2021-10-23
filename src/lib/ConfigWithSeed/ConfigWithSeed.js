@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import ImagePlaceholder from 'components/ImagePlaceholder';
 import useLogic from './useLogic';
-import classes from './Component.module.css';
+import classes from './ConfigWithSeed.module.css';
 
 const Component = ({initialValue = 0}) => {
   const {avatar, seed, setSeed} = useLogic(initialValue);
