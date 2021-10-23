@@ -1,0 +1,19 @@
+{
+  "rootDir": ".",
+  "setupFiles": [],
+  "restoreMocks": true,
+  "testRegex": "((\\.|/)(test|spec))\\.(jsx?|tsx?)$",
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js",
+    "jsx",
+    "json"
+  ],
+  "testPathIgnorePatterns": [
+    "/node_modules/",
+    "/dist/",
+    "/es/",
+    "/lib/"
+  ]
+}
