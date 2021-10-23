@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import ImagePlaceholder from 'components/ImagePlaceholder';
 import useLogic from './useLogic';
 import classes from './Component.module.css';
 
@@ -10,7 +11,11 @@ const Component = ({initialValue = 0}) => {
   return (
     <div className={classes.configWithSeed}>
       <h2 className={classes.header}>From seed</h2>
-      <img src={avatar} alt="Random avatar from seed" />
+      {avatar ? (
+        <img src={avatar} alt="Random SVG avatar from seed" />
+      ) : (
+        <ImagePlaceholder />
+      )}
       <input value={seed} onChange={e => setSeed(e.target.value)} name="Seed" />
     </div>
   );

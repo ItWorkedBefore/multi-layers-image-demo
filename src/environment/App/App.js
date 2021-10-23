@@ -7,13 +7,13 @@ const App = () => (
   <>
     <div className={classes.description}>
       <p>
-        This page show you how works the library{' '}
+        This page shows how the library works{' '}
         <a href="https://www.npmjs.com/package/multi-layers-image">
           multi-layers-image
         </a>
       </p>
       <p>
-        You can show the code of the page on the demo project{' '}
+        Here is the link to the code repository on github{' '}
         <a href="https://github.com/ItWorkedBefore/multi-layers-image-demo">
           ItWorkedBefore/multi-layers-image-demo
         </a>

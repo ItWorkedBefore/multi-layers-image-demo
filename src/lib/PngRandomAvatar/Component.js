@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import ImagePlaceholder from '../../components/ImagePlaceholder';
 import useLogic from './useLogic';
 import classes from './Component.module.css';
 
@@ -10,7 +11,12 @@ const Component = ({initialValue = 0}) => {
   return (
     <div className={classes.pngRandomAvatar}>
       <h2 className={classes.header}>PngRandomAvatar</h2>
-      <img src={avatar} alt="Random avatar" />
+      {/* <ImagePlaceholder /> */}
+      {avatar ? (
+        <img src={avatar} alt="Png random avatar" />
+      ) : (
+        <ImagePlaceholder />
+      )}
     </div>
   );
 };
